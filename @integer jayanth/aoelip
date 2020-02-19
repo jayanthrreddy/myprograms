@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+float main()
+{
+float a, b,area;
+printf("enter the a:\n");
+scanf("%f", &a);
+printf("enter the b:\n");
+scanf("%f", &b);
+area=3.142*a*b;
+printf("area of a rectangle=%.2f\n",area);
+}
+
